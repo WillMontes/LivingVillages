@@ -73,6 +73,8 @@ The first launch creates `config/livingvillages.json`. Pick one of:
 3. Confirm `ollama serve` is running on `http://localhost:11434`.
 4. Edit `config/livingvillages.json`:
 
+LLama3.1:8b is approximately 8gb of data. It is strongly recommended for less dropped commands. 
+
 ```json
 {
   "backend": "OLLAMA",
