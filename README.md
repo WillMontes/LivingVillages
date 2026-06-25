@@ -6,6 +6,8 @@ Living Villages turns Minecraft's static villager hubs into communities that hol
 
 The mod's design rule is **"villagers think; Minecraft acts"** — the AI picks what to do and why, the mod handles the pathfinding, block placement, and inventory work.
 
+
+(Being the first iteration of this mod, there is a rather unpolished feel to it. I will work to develop a user interface, maybe a city hall with books that log each historic village event. Possibly a store center.)
 ---
 
 ## Features
@@ -51,7 +53,6 @@ The mod itself is small (~150 KB JAR). The AI backend is what does the heavy lif
 1. Install [Fabric Loader 0.19.3+](https://fabricmc.net/use/installer/) for Minecraft 26.2.
 2. Download the latest **Fabric API** for 26.2 and drop it into `.minecraft/mods/`.
 3. Drop **`livingvillages-1.0.0.jar`** into `.minecraft/mods/`.
-4. Download [Fabric API's Kotlin language](https://modrinth.com/project/Ha28R6CL/version/Pd0xrHCw) plugin. Drop into `.minecraft/mods/`.
 5. Pick an AI backend (see below) and launch the game once to generate the config file.
 6. Edit the config, then launch again.
 
